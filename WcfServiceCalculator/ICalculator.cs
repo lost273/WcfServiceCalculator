@@ -7,36 +7,57 @@ using System.ServiceModel.Web;
 using System.Text;
 
 namespace WcfServiceCalculator {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface IService1 {
+    public interface ICalculator {
+        #region Common Methods
 
+        /// <summary>
+        /// test of connection
+        /// </summary>
+        /// <returns> OK </returns>
         [OperationContract]
-        string GetData(int value);
+        string TestConnection();
 
+        #endregion
+
+        #region Arithmetic
+
+        /// <summary>
+        /// addition
+        /// </summary>
+        /// <param name="a"> 1 </param>
+        /// <param name="b"> 2 </param>
+        /// <returns> result </returns>
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+        double Addition(double a, double b);
 
-        // TODO: Add your service operations here
-    }
+        /// <summary>
+        /// subtraction
+        /// </summary>
+        /// <param name="a"> 1 </param>
+        /// <param name="b"> 2 </param>
+        /// <returns> result </returns>
+        [OperationContract]
+        double Subtraction(double a, double b);
 
+        /// <summary>
+        /// multiplication
+        /// </summary>
+        /// <param name="a"> 1 </param>
+        /// <param name="b"> 2 </param>
+        /// <returns> result </returns>
+        [OperationContract]
+        double Multiplication(double a, double b);
 
-    // Use a data contract as illustrated in the sample below to add composite types to service operations.
-    [DataContract]
-    public class CompositeType {
-        bool boolValue = true;
-        string stringValue = "Hello ";
+        /// <summary>
+        /// division
+        /// </summary>
+        /// <param name="a"> 1 </param>
+        /// <param name="b"> 2 </param>
+        /// <returns> result </returns>
+        [OperationContract]
+        double Division(double a, double b);
 
-        [DataMember]
-        public bool BoolValue {
-            get { return boolValue; }
-            set { boolValue = value; }
-        }
-
-        [DataMember]
-        public string StringValue {
-            get { return stringValue; }
-            set { stringValue = value; }
-        }
+        #endregion
     }
 }
