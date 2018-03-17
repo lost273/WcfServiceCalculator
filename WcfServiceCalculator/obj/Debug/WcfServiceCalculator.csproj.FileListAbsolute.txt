@@ -1,0 +1,7 @@
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\bin\WcfServiceCalculator.dll.config
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\bin\WcfServiceCalculator.dll
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\bin\WcfServiceCalculator.pdb
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.csproj.CoreCompileInputs.cache
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.dll
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.pdb
+D:\prog\VSProj\GIT\WcfServiceCalculator\WcfServiceCalculator\obj\Debug\WcfServiceCalculator.csprojResolveAssemblyReference.cache
