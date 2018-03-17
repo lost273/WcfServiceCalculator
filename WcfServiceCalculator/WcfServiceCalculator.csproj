@@ -97,7 +97,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>65527</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/Calc</IISUrl>
+          <IISUrl>http://localhost:12345/Calc</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

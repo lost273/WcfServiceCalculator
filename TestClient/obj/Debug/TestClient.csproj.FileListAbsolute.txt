@@ -1,0 +1,7 @@
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\bin\Debug\TestClient.exe.config
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\bin\Debug\TestClient.exe
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\bin\Debug\TestClient.pdb
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\obj\Debug\TestClient.exe
+D:\prog\VSProj\GIT\WcfServiceCalculator\TestClient\obj\Debug\TestClient.pdb
